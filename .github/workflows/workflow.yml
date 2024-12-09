@@ -1,0 +1,13 @@
+name: my artcraft workfow
+on: push
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: git checkout for repo
+              uses: actions/checkout@v4
+
+            - name: execute below shell script
+              run: |
+                chmod +x dragon.sh
+                ./dragon.sh
