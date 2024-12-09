@@ -1,5 +1,5 @@
 #installing cowsay app 
-sudo apt install cowsy -y
+sudo apt install cowsay -y
 
 
 #generating ASCII artwork
