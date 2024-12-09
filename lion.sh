@@ -3,7 +3,7 @@ sudo apt install cowsay -y
 
 
 #generating ASCII artwork
-cowsay -f lion "Run for me... I am a aggressive male lion" >> dragon.txt
+cowsay -f lion "Run for me... I am a aggressive male lion" >> lion.txt
 
 #Testing for availability of dragon.txt
 grep -i "lion" lion.txt
