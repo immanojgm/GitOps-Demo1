@@ -10,4 +10,4 @@ jobs:
             - name: execute below shell script
               run: |
                 chmod +x dragon.sh
-                ./dragon.sh
+                cat dragon.sh
