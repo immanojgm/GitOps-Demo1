@@ -9,5 +9,5 @@ jobs:
 
             - name: execute below shell script
               run: |
-                chmod +x lion.sh
-                ./lion.sh
+                chmod +x dragon.sh
+                ./dragon.sh
