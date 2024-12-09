@@ -3,10 +3,10 @@ sudo apt install cowsay -y
 
 
 #generating ASCII artwork
-cowsay -f dragon "Run for me... I am a aggressive dragon with breathing fire" >> dragon.txt
+cowsay -f tux "Run for me... I am a aggressive tux with breathing fire" >> tux.txt
 
 #Testing for availability of dragon.txt
-grep -i "dragon" dragon.txt
+grep -i "tux" tux.txt
 
 #Reading dargon.txt fie
-cat dragon.txt
+cat tux.txt
